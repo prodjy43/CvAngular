@@ -1,3 +1,7 @@
+function nav(item){
+	$('nav a').removeClass('active');
+	$(item).addClass('active');
+}
 setTimeout(function(){
 	 /**
      * Graph

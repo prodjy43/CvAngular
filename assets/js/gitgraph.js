@@ -1328,7 +1328,7 @@
       /* falls through */
     default:
       template = {
-        colors: [ "#979797", "#008fb5", "#27ae60" ],
+        colors: [ "#979797", "#008fb5", "#f39c12" ],
         branch: {
           lineWidth: 10,
           spacingX: 50
