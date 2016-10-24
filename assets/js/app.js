@@ -71,7 +71,7 @@ setTimeout(function(){
 
 
     firstjob.commit({
-        message: "Apprentissage de diverce framework",
+        message: "Apprentissage de diverces framework",
         sha1: 'Juin 2016',
         detailId: 'framework java / rails'
     });
