@@ -68,7 +68,7 @@ setTimeout(function(){
 
 
     firstjob.merge(develop, {
-        message: "Projet personel diverce",
+        message: "Projets personel diverses",
         sha1: 'Avril 2016',
         detailId: "Web Dev / Serveur web"
     });
