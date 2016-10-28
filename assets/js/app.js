@@ -24,14 +24,14 @@ setTimeout(function(){
         message: "École primaire de Cortaillod",
         sha1: '2002 - 2006',
     }).commit({
-        message: "École secondaire les cerisiers",
+        message: "École secondaire les Cerisiers",
         sha1: '2007 - 2011'
     }).commit({
     	message: "Stage de cuisinier au Cheval blanc à Colombier",
-    	sha1: '2009'
+    	sha1: '2009 - 3 jours'
     }).commit({
     	message: "Stage d'informaticien au SCIEN à Neuchâtel",
-    	sha1: '2010'
+    	sha1: '2010 - 4 jours'
     });
 
     develop.merge(master, {
@@ -43,11 +43,11 @@ setTimeout(function(){
         message: "Début d'apprentissage dessinateur au CIFOM",
         sha1: '2012 - 2013'
     }).commit({
-        message: "Arret de l'apprentissage au CIFOM",
-        sha1: 'Septembre 2013'
+        message: "Arrêt de l'apprentissage au CIFOM",
+        sha1: 'Sept 2013'
     }).commit({
-        message: "Début d'un apprentissage d'informaticien CPLN",
-        sha1: 'Fin septembre 2013'
+        message: " - Jusqu'à présent : Apprentissage d'informaticien CPLN",
+        sha1: 'Sept 2013'
     });
 
     master.commit({
@@ -68,14 +68,14 @@ setTimeout(function(){
 
 
     firstjob.merge(develop, {
-        message: "Projets personel diverses",
+        message: "Divers projets personnels Web",
         sha1: 'Avril 2016',
         detailId: "Web Dev / Serveur web"
     });
 
 
     firstjob.commit({
-        message: "Apprentissage de diverces framework",
+        message: "Apprentissage de différents frameworks",
         sha1: 'Juin 2016',
         detailId: 'framework java / rails'
     });
